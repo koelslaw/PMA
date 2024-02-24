@@ -1,0 +1,3 @@
+curl -L -O https://sourceforge.net/projects/remnux/files/ova-general/remnux-v7-focal.ova/download
+tar -xvf download
+qemu-image convert -O qcow2 
